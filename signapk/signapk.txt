@@ -1,0 +1,11 @@
+文件位置：可以在platform/build/target/product/security/中找到platform.pk8 platform.x509.pem等签名文件，对应不同的权限。
+signapk.jar：由/platform/build/tools/signapk/编译产出,可以在/out/host/linux-x86/framework/中找到。
+
+签名：
+java -jar signapk.jar platform.x509.pem platform.pk8 MyDemo.apk MyDemo_signed.apk 得到具有对应权限的APK
+
+优化APK：
+zipalign -v 4 MyDemo_signed.apk MyDemo_new.apk
+
+查循APK是否优化过：
+zipalign -c -v 4 MyDemo.apk
