@@ -1,0 +1,4 @@
+java -jar baksmali.jar -o baksmaliout HelloWorld.dex
+java -jar smali.jar -o HelloWorld.dex HelloWorld.smali
+adb push HelloWorld.zip /data/local/tmp
+adb shell dalvikvm -cp /data/local/tmp/HelloWorld.zip HelloWorld 
