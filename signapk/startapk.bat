@@ -1,1 +1,1 @@
-adb shell am start -n %1/%2
+adb shell am start -n %1/.MainActivity
