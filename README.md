@@ -10,3 +10,4 @@ smali_baksmali-2.0.5: 反编译和编译工具
 	编译：
 		java -jar smali-2.0.5.jar c:\classout/ -o c:\classes.dex
 		把c:\classout目录下的smali文件编译为c:\classes.dex
+jd-gui-0.3.5.windows：".class"文件反编译工具
