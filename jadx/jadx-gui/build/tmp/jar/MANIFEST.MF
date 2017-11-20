@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+jadx-version: 0.6.1
+Class-Path: android-5.1.jar dx-1.10.jar jfontchooser-1.0.5.jar slf4j-a
+ pi-1.7.10.jar jadx-core-0.6.1.jar jadx-cli-0.6.1.jar rsyntaxtextarea-
+ 2.5.8.jar gson-2.3.1.jar image-viewer-1.2.3.jar commons-io-2.4.jar as
+ m-5.0.3.jar annotations-12.0.jar cloning-1.9.2.jar jcommander-1.47.ja
+ r logback-classic-1.1.2.jar objenesis-2.1.jar logback-core-1.1.2.jar
+Main-Class: jadx.gui.JadxGUI
+

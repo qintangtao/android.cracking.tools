@@ -1,0 +1,21 @@
+language: java
+jdk:
+    - oraclejdk8
+    - oraclejdk7
+    - openjdk6
+
+before_install:
+    - chmod +x gradlew
+
+script:
+    - TERM=dumb ./gradlew clean build dist
+
+after_success:
+    - TERM=dumb ./gradlew jacocoTestReport
+    - bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
+
+sudo: false
+
+notifications:
+    email:
+        - skylot@gmail.com

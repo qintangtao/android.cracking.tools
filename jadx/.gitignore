@@ -1,0 +1,24 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# IntelliJ Idea files
+.idea/
+out/
+*.iml
+*.ipr
+*.iws
+
+target/
+idea/
+gradle.properties
+
+*-tmp/
+
+*.dex
+*.class
+*.dump
+*.log
+*.cfg
+
