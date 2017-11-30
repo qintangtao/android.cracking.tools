@@ -1,13 +1,13 @@
 # android.cracking.tools
 android逆向工具和辅助工具
 
-##kstools
+## kstools
 hook应用签名方法<br>
 
-##signapk
+## signapk
 签名工具<br>
 
-##smali_baksmali-2.0.5
+## <base></base>smali_baksmali-2.0.5
 反编译和编译工具<br>
 	* 反编译：
 		java -jar baksmali-2.0.5.jar -o c:\classout/ c:\classes.dex
@@ -16,8 +16,8 @@ hook应用签名方法<br>
 		java -jar smali-2.0.5.jar c:\classout/ -o c:\classes.dex
 		把c:\classout目录下的smali文件编译为c:\classes.dex
 
-##jd-gui-0.3.5.windows
+## jd-gui-0.3.5.windows
 ".class"文件反编译工具<br>
 
-##ExtractDexFromOat
+## ExtractDexFromOat
 OAT转DEX<br>
