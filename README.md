@@ -6,7 +6,7 @@ hook应用签名方法<br>
 ## signapk
 签名工具<br>
 
-## <base></base>smali_baksmali-2.0.5
+## smali_baksmali-2.0.5
 * 反编译（把c:\classes.dex反编译为smali，输出到c:\classout目录）
 ```Bash
 java -jar baksmali-2.0.5.jar -o c:\classout/ c:\classes.dex
