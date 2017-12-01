@@ -22,3 +22,7 @@ java -jar smali-2.0.5.jar c:\classout/ -o c:\classes.dex
 
 ## ExtractDexFromOat
 OAT转DEX<br>
+
+##GDA3.32
+比JEB更快、更强、更小的Android反编译器<br>
+采用C++完成核心解析功能<br>
