@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/warning_text_color" android:gravity="center" android:id="@id/warning_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/crypt_keeper_low_charge_text" />
+    <View android:background="@color/transparent_30_balck" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="@integer/preference_fragment_scrollbarStyle" android:id="@android:id/list" android:paddingLeft="@dimen/preference_fragment_padding_side" android:paddingTop="0.0dip" android:paddingRight="@dimen/preference_fragment_padding_side" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" />
+    <Button android:textColor="@drawable/crypt_button_text_color" android:id="@id/initiate_encrypt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.599976dip" android:layout_marginTop="26.599976dip" android:layout_marginRight="26.599976dip" android:layout_marginBottom="26.599976dip" android:text="@string/crypt_keeper_button_text" />
+</LinearLayout>

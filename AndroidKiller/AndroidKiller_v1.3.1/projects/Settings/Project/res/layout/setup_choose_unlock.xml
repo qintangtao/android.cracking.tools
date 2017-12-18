@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/setup_choose_password_title_size" android:textStyle="bold" android:textColor="@color/setup_choose_password_title_color" android:id="@id/setup_choose_unlock_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="98.0dip" android:text="@string/setup_choose_unlock_type_title" android:layout_marginStart="48.0dip" />
+    <TextView android:textSize="@dimen/setup_choose_password_msg_size" android:textColor="@color/setup_choose_password_msg_color" android:id="@id/setup_choose_unlock_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/turn_on_keyguard_password_alert" android:layout_marginStart="48.0dip" />
+    <View android:background="@color/setup_choose_password_view_color" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginTop="24.699982dip" android:layout_marginStart="48.0dip" android:layout_marginEnd="40.0dip" />
+    <ListView android:scrollbarStyle="insideInset" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.699982dip" android:layout_marginEnd="24.699982dip" />
+    <View android:background="@android:color/white" android:layout_width="23.299988dip" android:layout_height="100.0dip" android:layout_marginTop="-20.0px" android:layout_marginStart="23.299988dip" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" layout="@layout/setup_unlock_btn_layout" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bootloader_apply_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_danger_warning" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/bootloader_apply_title" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/master_clear_apply_title" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/bootloader_apply_warning_info" android:ellipsize="marquee" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/warning_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <Button android:textSize="12.0sp" android:textColor="@color/bootloader_apply_reject" android:id="@id/cancel" android:background="@drawable/button_bootloader_left_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_text_cancel" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@color/bootloader_apply_accept" android:id="@id/ok" android:background="@drawable/button_bootloader_right_selector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/button_text_ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

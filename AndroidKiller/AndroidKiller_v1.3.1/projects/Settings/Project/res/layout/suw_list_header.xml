@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="stickyContainer" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/suw_header_elevation_hack"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.setupwizardlib.view.Illustration android:id="@id/suw_layout_decor" android:background="@drawable/suw_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/suw_title_area_elevation">
+        <TextView android:id="@id/suw_layout_title" android:tag="sticky" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuwHeaderTitle" />
+    </com.android.setupwizardlib.view.Illustration>
+    <include layout="@layout/suw_progress_bar_stub" />
+</LinearLayout>

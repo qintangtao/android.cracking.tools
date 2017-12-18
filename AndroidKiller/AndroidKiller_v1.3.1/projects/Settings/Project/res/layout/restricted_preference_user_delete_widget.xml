@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/restricted_icon" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/user_delete_widget" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <View android:id="@id/divider_manage" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/manage_user" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_sysbar_quicksettings" android:contentDescription="@string/settings_label" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <View android:id="@id/divider_delete" android:background="@android:drawable/divider_horizontal_dark" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/trash_user" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_delete" android:contentDescription="@string/user_delete_user_description" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+</merge>

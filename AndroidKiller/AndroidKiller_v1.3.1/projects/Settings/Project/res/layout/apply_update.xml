@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:gravity="center_vertical" android:id="@id/rom_title" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <WebView android:id="@id/htmlContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:gravity="center" android:id="@id/bottom_bar" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingTop="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/download_status" android:paddingBottom="?android:listPreferredItemPaddingLeft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.5">
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/ds_downloading_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/downloading_description" />
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:gravity="right" android:id="@id/ds_remaining_size" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <view android:id="@id/ds_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" class="miui.widget.ProgressBar" />
+            </LinearLayout>
+            <Button android:id="@id/ds_cancel_button" android:background="@drawable/action_button_auto_start" android:layout_width="0.0dip" android:layout_height="70.0px" android:layout_marginLeft="15.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="8.0dip" android:text="@string/cancel_download_buton_text" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/update_status" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/us_update_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <view android:id="@id/us_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" class="miui.widget.ProgressBar" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/opreation_bar" android:paddingBottom="?android:listPreferredItemPaddingLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:ellipsize="marquee" android:id="@id/apply_now_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@miui:style/Widget.Button.Positive" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

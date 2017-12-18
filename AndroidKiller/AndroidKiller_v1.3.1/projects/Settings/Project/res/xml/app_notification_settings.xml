@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_notifications_title" android:key="app_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.MiuiRestrictedSwitchPreference android:title="@string/app_notification_block_title" android:key="block" android:summary="@string/app_notification_block_summary" android:order="2" settings:useAdditionalSummary="true" settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+    <com.android.settings.MiuiRestrictedSwitchPreference android:title="@string/show_silently" android:key="silent" android:summary="@string/show_silently_summary" android:order="3" settings:useAdditionalSummary="true" />
+    <com.android.settings.notification.ImportanceSeekBarPreference android:title="@string/notification_importance_title" android:key="importance" android:order="4" />
+    <com.android.settings.notification.MiuiRestrictedDropDownPreference android:title="@string/app_notification_visibility_override_title" android:key="visibility_override" android:order="5" />
+    <com.android.settings.MiuiRestrictedSwitchPreference android:title="@string/app_notification_override_dnd_title" android:key="bypass_dnd" android:summary="@string/app_notification_override_dnd_summary" android:order="6" settings:useAdditionalSummary="true" />
+</PreferenceScreen>

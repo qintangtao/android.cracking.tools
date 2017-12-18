@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/security_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.RestrictedPreference android:persistent="false" android:title="@string/unlock_set_unlock_launch_picker_title_profile" android:key="unlock_set_or_change_profile" android:summary="@string/unlock_set_unlock_mode_pattern" settings:keywords="@string/keywords_lockscreen" />
+    <CheckBoxPreference android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile" android:key="visiblepattern_profile" />
+</PreferenceScreen>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nfc_payment_tap_image" android:layout_width="288.0dip" android:layout_height="wrap_content" android:src="@drawable/tapandpay_emptystate" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/nfc_payment_empty_text" android:paddingTop="36.0dip" android:layout_width="264.0dip" android:layout_height="wrap_content" android:text="@string/nfc_payment_no_apps" />
+</LinearLayout>
