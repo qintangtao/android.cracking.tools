@@ -1,4 +1,4 @@
 {
-	"cmd": ["全路径\\java2smali.bat", "dumpsmali", "-java", "$file"],
+	"cmd": ["*\\java2smali.bat", "dumpSmali", "-open", "*\\sublime_text.exe", "-java", "$file"],
 	"encoding": "cp936"
 }
