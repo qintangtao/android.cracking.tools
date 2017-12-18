@@ -1,0 +1,4 @@
+{
+	"cmd": ["全路径\\java2smali.bat", "dumpsmali", "-java", "$file"],
+	"encoding": "cp936"
+}
