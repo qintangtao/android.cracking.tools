@@ -9,7 +9,7 @@
     <Language value="简体中文.xml" />
   </Options>
   <SDK>
-    <JavaSDK value="C:\Program Files\Java\jdk1.8.0_121" />
+    <JavaSDK value="C:\Program Files\Java\jdk1.7.0_80" />
     <JVMOptions />
     <AndroidSDK />
   </SDK>
@@ -27,6 +27,7 @@
     <RecentApk3 value="E:\work\52pojie\Cracking\apk\Test360_2.encrypted_signed_Aligned.apk" />
     <RecentApk4 value="C:\Users\pc3\Desktop\config\config\InstallerClient.apk" />
     <RecentApk5 value="E:\work\52pojie\Cracking\apk\MI5X\Settings.apk" />
+    <RecentApk6 value="E:\work\52pojie\Cracking\apk\360jiagu\360虚拟壳修复工具和代码\manualProduceSmali\AllDalvikOpcode_test7.apk" />
   </RecentApks>
   <OnlineTranslation>
     <Enabled value="False" />
