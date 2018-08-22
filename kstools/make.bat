@@ -1,7 +1,11 @@
 @echo off
 
-del unsigned.apk
-del signed.apk
+if exist unsigned.apk (
+	del unsigned.apk
+)
+if exist signed.apk (
+	del signed.apk
+)
 
 call kstools.bat src.apk
 
