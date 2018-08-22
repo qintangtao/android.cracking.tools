@@ -1,7 +1,7 @@
 @echo off
 
 echo ------------------------------------
-call apktool_2.3.3.bat b %1 -o %1-new.apk
+call apktool.bat b %1 -o %1-new.apk
 
 echo ------------------------------------
 for %%x in (classes*.dex) do (
