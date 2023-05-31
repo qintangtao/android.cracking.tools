@@ -1,0 +1,7 @@
+
+
+
+安装错误：
+
+	Failure [INSTALL_FAILED_TEST_ONLY: installPackageLI]
+	修改AndroidManifest.xml 中android:testOnly="true" 改成 android:testOnly="false"，或者直接去掉
